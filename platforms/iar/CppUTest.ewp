@@ -12,7 +12,7 @@
       <name>General</name>
       <archiveVersion>3</archiveVersion>
       <data>
-        <version>22</version>
+        <version>24</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
@@ -26,11 +26,6 @@
         <option>
           <name>ListPath</name>
           <state>Debug\List</state>
-        </option>
-        <option>
-          <name>Variant</name>
-          <version>21</version>
-          <state>40</state>
         </option>
         <option>
           <name>GEndianMode</name>
@@ -59,11 +54,6 @@
           <state>1</state>
         </option>
         <option>
-          <name>FPU</name>
-          <version>5</version>
-          <state>7</state>
-        </option>
-        <option>
           <name>OGCoreOrChip</name>
           <state>0</state>
         </option>
@@ -87,7 +77,7 @@
         </option>
         <option>
           <name>OGLastSavedByProductVersion</name>
-          <state>7.40.2.8567</state>
+          <state>7.40.3.8937</state>
         </option>
         <option>
           <name>GeneralEnableMisra</name>
@@ -136,14 +126,9 @@
           <state>$TOOLKIT_DIR$\INC\c\DLib_Config_Normal.h</state>
         </option>
         <option>
-          <name>GFPUCoreSlave</name>
-          <version>21</version>
-          <state>40</state>
-        </option>
-        <option>
           <name>GBECoreSlave</name>
-          <version>21</version>
-          <state>40</state>
+          <version>22</version>
+          <state>38</state>
         </option>
         <option>
           <name>OGUseCmsis</name>
@@ -156,6 +141,34 @@
         <option>
           <name>GRuntimeLibThreads</name>
           <state>0</state>
+        </option>
+        <option>
+          <name>CoreVariant</name>
+          <version>22</version>
+          <state>38</state>
+        </option>
+        <option>
+          <name>GFPUDeviceSlave</name>
+          <state>Default	None</state>
+        </option>
+        <option>
+          <name>FPU2</name>
+          <version>0</version>
+          <state>0</state>
+        </option>
+        <option>
+          <name>NrRegs</name>
+          <version>0</version>
+          <state>0</state>
+        </option>
+        <option>
+          <name>NEON</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>GFPUCoreSlave2</name>
+          <version>22</version>
+          <state>38</state>
         </option>
       </data>
     </settings>
@@ -539,7 +552,7 @@
         </option>
         <option>
           <name>AOutputFile</name>
-          <state></state>
+          <state>$FILE_BNAME$.o</state>
         </option>
         <option>
           <name>AMultibyteSupport</name>
@@ -934,7 +947,7 @@
         </option>
         <option>
           <name>IarchiveOutput</name>
-          <state>C:\cpputest\cpputest-3.7.1\Debug\Exe\cpputest.a</state>
+          <state>C:\cygwin64\home\casey.smith\devel\cpputest\platforms\iar\Debug\Exe\CppUTest.a</state>
         </option>
       </data>
     </settings>
@@ -954,7 +967,7 @@
       <name>General</name>
       <archiveVersion>3</archiveVersion>
       <data>
-        <version>22</version>
+        <version>24</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>0</debug>
         <option>
@@ -968,11 +981,6 @@
         <option>
           <name>ListPath</name>
           <state>Release\List</state>
-        </option>
-        <option>
-          <name>Variant</name>
-          <version>21</version>
-          <state>0</state>
         </option>
         <option>
           <name>GEndianMode</name>
@@ -1001,11 +1009,6 @@
           <state>0</state>
         </option>
         <option>
-          <name>FPU</name>
-          <version>5</version>
-          <state>0</state>
-        </option>
-        <option>
           <name>OGCoreOrChip</name>
           <state>0</state>
         </option>
@@ -1029,7 +1032,7 @@
         </option>
         <option>
           <name>OGLastSavedByProductVersion</name>
-          <state></state>
+          <state>7.40.3.8937</state>
         </option>
         <option>
           <name>GeneralEnableMisra</name>
@@ -1041,7 +1044,7 @@
         </option>
         <option>
           <name>OGChipSelectEditMenu</name>
-          <state></state>
+          <state>Default	None</state>
         </option>
         <option>
           <name>GenLowLevelInterface</name>
@@ -1078,13 +1081,8 @@
           <state></state>
         </option>
         <option>
-          <name>GFPUCoreSlave</name>
-          <version>21</version>
-          <state>1</state>
-        </option>
-        <option>
           <name>GBECoreSlave</name>
-          <version>21</version>
+          <version>22</version>
           <state>1</state>
         </option>
         <option>
@@ -1097,6 +1095,34 @@
         </option>
         <option>
           <name>GRuntimeLibThreads</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>CoreVariant</name>
+          <version>22</version>
+          <state>0</state>
+        </option>
+        <option>
+          <name>GFPUDeviceSlave</name>
+          <state>Default	None</state>
+        </option>
+        <option>
+          <name>FPU2</name>
+          <version>0</version>
+          <state>0</state>
+        </option>
+        <option>
+          <name>NrRegs</name>
+          <version>0</version>
+          <state>0</state>
+        </option>
+        <option>
+          <name>NEON</name>
+          <state>0</state>
+        </option>
+        <option>
+          <name>GFPUCoreSlave2</name>
+          <version>22</version>
           <state>0</state>
         </option>
       </data>
@@ -1912,6 +1938,9 @@
         <name>$PROJ_DIR$\..\..\src\CppUTest\SimpleString.cpp</name>
       </file>
       <file>
+        <name>$PROJ_DIR$\..\..\src\CppUTest\TeamCityTestOutput.cpp</name>
+      </file>
+      <file>
         <name>$PROJ_DIR$\..\..\src\CppUTest\TestFailure.cpp</name>
       </file>
       <file>
@@ -1934,6 +1963,9 @@
       </file>
       <file>
         <name>$PROJ_DIR$\..\..\src\CppUTest\TestResult.cpp</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\..\..\src\CppUTest\TestTestingFixture.cpp</name>
       </file>
       <file>
         <name>$PROJ_DIR$\..\..\src\CppUTest\Utest.cpp</name>
